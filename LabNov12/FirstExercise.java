@@ -1,7 +1,7 @@
-package ItP.LabNov12;
+package ItP1.LabNov12;
 import java.io.*;
 
-public class Main {
+public class FirstExercise {
     public static void main(String[] args) {
         try(FileInputStream in = new FileInputStream("input.txt");
             FileOutputStream out = new FileOutputStream("output.txt"))
